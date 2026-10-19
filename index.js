@@ -1,4 +1,4 @@
-// index.js
+﻿// index.js
 require('dotenv').config();
 const Mustache = require('mustache');
 const fetch = require('node-fetch');
@@ -6,10 +6,10 @@ const fs = require('fs');
 const MUSTACHE_MAIN_DIR = './main.mustache';
 
 /**
-  * DATA is the object that contains
-  * the data to be provided to Mustache
-  * (the refresh time).
-*/
+ * DATA is the object that contains
+ * the data to be provided to Mustache
+ * (the refresh time and weather).
+ */
 let DATA = {
   refreshTime: new Date().toLocaleDateString('en-US', {
     weekday: 'long',
@@ -23,62 +23,62 @@ let DATA = {
 };
 
 /**
-  * Here is the temperature
-  * of New Delhi city
-*/
+ * Weather of New Delhi (or configured city)
+ */
 async function setWeatherInformation() {
   if (!process.env.OPEN_WEATHER_MAP_KEY) {
+    console.log('No OPEN_WEATHER_MAP_KEY provided, generating profile without weather widget.');
     return;
   }
+
   try {
+    const cityName = process.env.WEATHER_CITY || 'New Delhi';
+    const timeZone = process.env.TIME_ZONE || 'Asia/Kolkata';
     const response = await fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=New%20Delhi&units=metric&appid=${process.env.OPEN_WEATHER_MAP_KEY}`
+      `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(cityName)}&units=metric&appid=${process.env.OPEN_WEATHER_MAP_KEY}`
     );
     const r = await response.json();
+
     if (r && r.weather && r.weather[0] && r.main) {
       DATA.city_temperature = Math.round(r.main.temp);
       DATA.feels_like_temp = Math.round(r.main.feels_like);
       DATA.city_weather = r.weather[0].description;
-      DATA.weather_icon = 'http://openweathermap.org/img/w/' + r.weather[0].icon + '.png';
+      DATA.weather_icon = 'https://openweathermap.org/img/w/' + r.weather[0].icon + '.png';
       DATA.humidity = r.main.humidity;
       DATA.sun_rise = new Date(r.sys.sunrise * 1000).toLocaleString('en-US', {
         hour: '2-digit',
         minute: '2-digit',
-        timeZone: 'Asia/Kolkata',
+        timeZone: timeZone,
       });
       DATA.sun_set = new Date(r.sys.sunset * 1000).toLocaleString('en-US', {
         hour: '2-digit',
         minute: '2-digit',
-        timeZone: 'Asia/Kolkata',
+        timeZone: timeZone,
       });
+      console.log('Weather fetched successfully for:', cityName);
     }
-  } catch (err) {
-    console.error('Failed to fetch weather information:', err.message);
+  } catch (error) {
+    console.error('Error fetching weather data:', error);
   }
 }
 
 /**
-  * A - We open 'main.mustache'
-  * B - We ask Mustache to render our file with the data
-  * C - We create a README.md file with the generated output
-  */
+ * A - Read 'main.mustache'
+ * B - Render with Mustache using DATA
+ * C - Write output to README.md in UTF-8
+ */
 function generateReadMe() {
-  fs.readFile(MUSTACHE_MAIN_DIR, (err, data) =>  {
+  fs.readFile(MUSTACHE_MAIN_DIR, 'utf8', (err, data) => {
     if (err) throw err;
-    const output = Mustache.render(data.toString(), DATA);
-    fs.writeFileSync('README.md', output);
+    const output = Mustache.render(data, DATA);
+    fs.writeFileSync('README.md', output, 'utf8');
+    console.log('README.md successfully updated!');
   });
 }
 
 async function action() {
-  /**
-   * Fetch weather
-   */
   await setWeatherInformation();
-  
-  /**
-   * Generate README
-   */
   generateReadMe();
 }
+
 action();

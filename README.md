@@ -1,132 +1,116 @@
-<!-- 
-GIF SECTION
-
-If you wanna know how i made this gif
-
-I made this with my repo: (https://github.com/apexkartikay/apexkartikay)
-There i made and page with the GIF content, later i record my screen with OBS
-after that i converter the video from mp4 to gif
-ur welcome ;) 
+﻿<!-- 
+Header Banner / Presentation GIF
 -->
-<a href="https://github.com/apexkartikay">![apexkartikay Profile GIF](./assets/profile_presentation.gif)</a>
+<a href="https://github.com/apexkartikay">
+  <img src="./assets/profile_presentation.gif" width="100%" alt="Kartikay Mishra Profile Header"/>
+</a>
 
-<!-- Social icons section -->
-<h1 align="center"> Social Media: </h1>
-  <p align="center">
-    <a href="https://github.com/apexkartikay">
-      <img src="https://img.shields.io/badge/GitHub-7cebf5?&style=for-the-badge&logo=github&logoColor=black">
-    </a>
-    <a href="https://www.linkedin.com/in/kartikay-mishra-02644633b/">
-      <img src="https://img.shields.io/badge/linkedin-7cebf5?&style=for-the-badge&logo=linkedin&logoColor=black">
-    </a>
-    <a href="https://leetcode.com/u/apexkartikay/">
-      <img src="https://img.shields.io/badge/LeetCode-7cebf5?&style=for-the-badge&logo=leetcode&logoColor=black">
-    </a>
-    <a href="mailto:kartikmk0402@gmail.com">
-      <img src="https://img.shields.io/badge/SEND%20MAIL-7cebf5?&style=for-the-badge&logo=gmail&logoColor=black">
-    </a>
-  </p>
-</h1>
+<!-- Social Media Icons Section -->
+<h1 align="center"> Connect with me </h1>
+<p align="center">
+  <a href="https://github.com/apexkartikay">
+    <img src="https://img.shields.io/badge/GitHub-7cebf5?&style=for-the-badge&logo=github&logoColor=black" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/kartikay-mishra-02644633b/">
+    <img src="https://img.shields.io/badge/LinkedIn-7cebf5?&style=for-the-badge&logo=linkedin&logoColor=black" alt="LinkedIn"/>
+  </a>
+  <a href="https://leetcode.com/u/apexkartikay/">
+    <img src="https://img.shields.io/badge/LeetCode-7cebf5?&style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
+  </a>
+  <a href="mailto:kartikmk0402@gmail.com">
+    <img src="https://img.shields.io/badge/Email-7cebf5?&style=for-the-badge&logo=gmail&logoColor=black" alt="Email"/>
+  </a>
+</p>
 
 <hr>
 
-<!-- Description about me -->
-<h2 align="center"> 🤔 About me 👨‍💻 </h2>
+<!-- About Me Section -->
+<h2 align="center"> 🤔 About Me 👨‍💻 </h2>
 
 Hey there! 👋 <br />
-I am <b>Kartikay Mishra</b>, better known as 'apexkartikay' 🚀 <br />
+I am <b>Kartikay Mishra</b>, known across the web as <b>apexkartikay</b> 🕵️‍♂️ <br />
 I am from <strong>India 🇮🇳</strong> <br />
-I'm a full-stack and systems developer who loves engineering scalable solutions and writing clean code 🖥️ <br />
-Computer Science undergraduate at SRM University AP with 180+ LeetCode problems solved. <br />
-Passionate about software architecture, automating infrastructure, algorithms, and continuous learning ❤️ meeting incredible people along the way 🚀<br />
-If you are looking for a developer who writes resilient, tested code and brings positive energy and passion for learning 📚, <b>⚙️I AM YOUR GUY⚙️</b> <br />
-Contact me for new projects and collaborations 📨, <sup>I am always open to collaborate!</sup>
+I am a software engineer and computer science undergraduate at <b>SRM University AP</b> who loves engineering scalable software, designing reliable systems, and writing clean, maintainable code 🖥️ <br />
+Passionate about software architecture, algorithms, cloud engineering, and continuous learning 🚀<br />
+If you are looking for an energetic developer with strong problem-solving skills and a passion for engineering, <b>⚙️ I AM YOUR GUY ⚙️</b> <br />
+Open to exciting collaborations, open-source initiatives, and engineering roles 📨
 <br/><br/> 
 
 
-### 🧐 More About Me:
+### 🧐 Quick Highlights:
 <table style="border-collapse: collapse; border: none; width: 100%;">
   <tr style="border: none;">
     <td style="border: none; padding: 0; vertical-align: top;">
       <ul style="list-style-type: none; padding-left: 0;">
-        <li>🔭 I’m currently studying CS at <b>SRM University AP</b></li>
-        <li>🤝 I’m looking to collaborate on Open Source Projects</li>
-        <li>🌱 I’m currently exploring Systems Programming & Cloud Engineering</li>
-        <li>👨🏻‍💻 Most of my projects are available on <a href="https://github.com/apexkartikay?tab=repositories">Github</a></li>
-        <li>💬 Ask me about anything tech related, I am happy to help (systems, backend, or web dev)</li>
-        <li>📫 Feel free to contact me on <a href="https://www.linkedin.com/in/kartikay-mishra-02644633b/">LinkedIn</a></li>
-        <li>⚡ Solved 180+ algorithmic challenges on <a href="https://leetcode.com/u/apexkartikay/">LeetCode</a></li>
-        <li>📝 Checkout my repositories & work on <a href="https://github.com/apexkartikay">GitHub</a></li>
+        <li>🔭 Currently studying CS at <b>SRM University AP</b></li>
+        <li>💡 Solved <b>180+ problems</b> on <a href="https://leetcode.com/u/apexkartikay/">LeetCode</a></li>
+        <li>🤝 Interested in collaborating on Open Source & System Architecture</li>
+        <li>🌱 Exploring Systems Programming, Distributed Systems, & Cloud Engineering</li>
+        <li>👨‍💻 All public projects are available on <a href="https://github.com/apexkartikay?tab=repositories">GitHub</a></li>
+        <li>💬 Ask me about anything backend, database design, or web dev related</li>
+        <li>📫 Feel free to reach out via <a href="https://www.linkedin.com/in/kartikay-mishra-02644633b/">LinkedIn</a> or <a href="mailto:kartikmk0402@gmail.com">Email</a></li>
       </ul>
     </td>
     <td style="border: none; padding: 0; text-align: right;">
-      <img alt="GIF" src="./assets/dance_ascii.gif" width="450" style="margin-left: auto; display: block;" />
+      <img alt="Dance ASCII Animation" src="./assets/dance_ascii.gif" width="420" style="margin-left: auto; display: block;" />
     </td>
   </tr>
 </table>
 
-<br><br><br>
+<br><br>
 
-<!-- languajes and skills section -->
+<!-- Languages and skills section -->
 
-<h1 align="center"> Languages/Frameworks I'm good at: </h1>
+<h1 align="center"> 🛠️ Languages & Frameworks: </h1>
 <p align="center">
-  <code><a href="https://nodejs.org/en"><img alt="Node" title="Node" src="./assets/node.png" height="42"></a></code>
-  <code><a href="https://react.dev/"><img alt="React" title="React" src="./assets/react.webp" height="42"></a></code>
-  <code><a href="https://angular.dev/"><img alt="Angular" title="Angular" src="./assets/angular.png" height="42"></a></code>
-  <code><a href="https://www.typescriptlang.org/"><img alt="typescript" title="typescript" src="./assets/typescript.png" height="42"></a></code>
   <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img alt="JavaScript" title="JavaScript" src="./assets/js.png" height="42"></a></code>
-  <code><a href="https://reactnative.dev/"><img alt="react native" title="react native" src="./assets/reactnative.png" height="42"></a></code>
-  <code><a href="https://www.python.org/"><img alt="python" title="python" src="./assets/python.png" height="42"></a></code>
-  <code><a href="https://flask.palletsprojects.com/en/2.0.x/"><img alt="Flask" title="Flask" src="./assets/flask.png" height="42"></a></code>
+  <code><a href="https://www.typescriptlang.org/"><img alt="TypeScript" title="TypeScript" src="./assets/typescript.png" height="42"></a></code>
+  <code><a href="https://www.python.org/"><img alt="Python" title="Python" src="./assets/python.png" height="42"></a></code>
+  <code><a href="https://nodejs.org/en"><img alt="Node.js" title="Node.js" src="./assets/node.png" height="42"></a></code>
+  <code><a href="https://react.dev/"><img alt="React" title="React" src="./assets/react.webp" height="42"></a></code>
   <code><a href="https://fastapi.tiangolo.com/"><img alt="FastAPI" title="FastAPI" src="./assets/fast-api.svg" height="42"></a></code>
+  <code><a href="https://flask.palletsprojects.com/en/2.0.x/"><img alt="Flask" title="Flask" src="./assets/flask.png" height="42"></a></code>
   <code><a href="https://www.gnu.org/software/bash"><img alt="Bash" title="Bash" src="./assets/bash.png" height="42"></a></code>
-  <code><a href="https://www.w3.org/Style/CSS/Overview.en.html"><img alt="CSS 3" title="CSS 3" src="./assets/css.png" height="42"></a></code>
+  <code><a href="https://www.w3.org/Style/CSS/Overview.en.html"><img alt="CSS3" title="CSS3" src="./assets/css.png" height="42"></a></code>
+  <code><a href="https://en.wikipedia.org/wiki/HTML"><img alt="HTML5" title="HTML5" src="./assets/html.png" height="42"></a></code>
   <code><a href="https://github.com/features/actions"><img alt="GitHub Actions" title="GitHub Actions" src="./assets/actions.png" height="42"></a></code>
-  <code><a href="https://en.wikipedia.org/wiki/HTML"><img alt="HTML 5" title="HTML 5" src="./assets/html.png" height="42"></a></code>
-  <code><a href="https://vuejs.org/"><img alt="Vue" title="Vue" src="./assets/vue.png" height="42"></a></code>
-  <code><a href="https://daringfireball.net/projects/markdown"><img alt="Markdown" title="Markdown" src="./assets/markdown.png" height="42"></a></code>
 </p>
 <br>
 
-<h1 align="center"> Languages/Frameworks I'm learning: </h1>
+<h1 align="center"> 🚀 Currently Exploring: </h1>
 <p align="center">
-  <code><a href="https://www.djangoproject.com/"><img alt="Django" title="Django" src="./assets/Django-Logo.png" height="42"></a></code>
   <code><a href="https://docs.nestjs.com/"><img alt="NestJS" title="NestJS" src="./assets/NestJS.png" height="42"></a></code>
-  <code><a href="https://laravel.com/"><img alt="Laravel" title="Laravel" src="./assets/laravel.png" height="42"></a></code>
+  <code><a href="https://www.djangoproject.com/"><img alt="Django" title="Django" src="./assets/Django-Logo.png" height="42"></a></code>
   <code><a href="https://spring.io/"><img alt="Spring" title="Spring" src="./assets/spring-logo.png" height="42"></a></code>
   <code><a href="https://www.java.com/en/"><img alt="Java" title="Java" src="./assets/java.png" height="42"></a></code>
 </p>
 <br>
 
-<h1 align="center"> Environments I work with: </h1>
+<h1 align="center"> 💻 Development Environments: </h1>
 <p align="center">
-  <code><a href="https://www.archlinux.org/"><img alt="Arch Linux" title="Arch Linux" src="./assets/arch.png" height="42"></a></code>
+  <code><a href="https://code.visualstudio.com/"><img alt="VS Code" title="VS Code" src="./assets/vscode.png" height="42"></a></code>
   <code><a href="https://github.com/"><img alt="GitHub" title="GitHub" src="./assets/github.png" height="42"></a></code>
   <code><a href="https://www.npmjs.com"><img alt="NPM" title="NPM" src="./assets/npm.png" height="42"></a></code>
-  <code><a href="https://classic.yarnpkg.com/en/"><img alt="YARN" title="YARN" src="./assets/yarn.png" height="42"></a></code>
-  <code><a href="https://code.visualstudio.com/"><img alt="Vs code" title="Vs code" src="./assets/vscode.png" height="42"></a></code>
+  <code><a href="https://classic.yarnpkg.com/en/"><img alt="Yarn" title="Yarn" src="./assets/yarn.png" height="42"></a></code>
+  <code><a href="https://www.archlinux.org/"><img alt="Linux" title="Linux" src="./assets/arch.png" height="42"></a></code>
 </p>
 <br>
 
-<!-- GitHub stats section -->
+<!-- GitHub Stats Section -->
 
-## 📊 Github stats
+## 📊 GitHub Stats
 
-<!-- Bassed on: https://github.com/anuraghazra/github-readme-stats -->
 <p align="center">
   <br/>
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="apexkartikay's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=apexkartikay&show_icons=true&count_private=true&theme=react&bg_color=1F222E&title_color=7cebf5&icon_color=2d7de4&show_icons=true&border_color=7cebf5&border_radius=10" height="192px"/></a>
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="apexkartikay's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=apexkartikay&langs_count=8&layout=compact&theme=react&bg_color=1F222E&title_color=7cebf5&icon_color=2d7de4&show_icons=true&border_color=7cebf5&border_radius=10" height="192px"/></a>
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Kartikay's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=apexkartikay&show_icons=true&count_private=true&theme=react&bg_color=1F222E&title_color=7cebf5&icon_color=2d7de4&border_color=7cebf5&border_radius=10" height="192px"/></a>
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Kartikay's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=apexkartikay&langs_count=8&layout=compact&theme=react&bg_color=1F222E&title_color=7cebf5&icon_color=2d7de4&border_color=7cebf5&border_radius=10" height="192px"/></a>
   <br/>
-  <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
 </p>
 
-<!-- Projects section -->
+<!-- Top Projects Section -->
 
-## 📘 My top open source projects
+## 📘 Top Open Source Projects
 
-<!-- Bassed on: Repo info cards - https://github.com/anuraghazra/github-readme-stats -->
 <p align="center">
   <p style="width: 100%;" align="center">
     <a href="https://github.com/apexkartikay/STUDENT-RECORD-MANAGEMENT-SYSTEM"><img align="left" width="45%" height="150px" src="https://github-readme-stats.vercel.app/api/pin/?username=apexkartikay&repo=STUDENT-RECORD-MANAGEMENT-SYSTEM&bg_color=1F222E&title_color=7cebf5&icon_color=2d7de4&theme=react&border_color=7cebf5&border_radius=10&show_icons=true" alt="STUDENT-RECORD-MANAGEMENT-SYSTEM"></a>
@@ -146,20 +130,18 @@ Contact me for new projects and collaborations 📨, <sup>I am always open to co
   <a href="https://github.com/apexkartikay?tab=repositories"><img alt="All Repositories" title="All Repositories" src="https://custom-icon-badges.herokuapp.com/badge/-All%20Repos-2962FF?style=for-the-badge&logoColor=white&logo=repo"/></a>
 </p>
 
-<!-- last activity section -->
+<!-- 3D Activity Graph Section -->
 
-## Activity Graph
+## 📈 3D Activity Graph
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" width="100%"/>
+  <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Activity Graph"/>
 </p>
 
 <br>
 
-<!-- last refresh of readme section -->
-
-Last refresh: <b>Monday, October 19 at 2:54 PM GMT+5:30</b>
+<!-- Last Refresh Section -->
+Last refresh: <b>Monday, October 19 at 3:02 PM GMT+5:30</b>
 
 <!---
 apexkartikay/apexkartikay is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
 --->
