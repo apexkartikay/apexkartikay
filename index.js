@@ -18,36 +18,43 @@ let DATA = {
     hour: 'numeric',
     minute: 'numeric',
     timeZoneName: 'short',
-    timeZone: 'America/Bogota',
+    timeZone: 'Asia/Kolkata',
   }),
 };
 
 /**
   * Here is the temperature
-  * of Bogota city
+  * of New Delhi city
 */
 async function setWeatherInformation() {
-    await fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=Bogota&units=metric&appid=${process.env.OPEN_WEATHER_MAP_KEY}`
-    )
-      .then(r => r.json())
-      .then(r => {
-        DATA.city_temperature = Math.round(r.main.temp);
-        DATA.feels_like_temp = Math.round(r.main.feels_like);
-        DATA.city_weather = r.weather[0].description;
-        DATA.weather_icon = 'http://openweathermap.org/img/w/' + r.weather[0].icon + '.png';
-        DATA.humidity = r.main.humidity;
-        DATA.sun_rise = new Date(r.sys.sunrise * 1000).toLocaleString('en-US', {
-          hour: '2-digit',
-          minute: '2-digit',
-          timeZone: 'America/Bogota',
-        });
-        DATA.sun_set = new Date(r.sys.sunset * 1000).toLocaleString('en-US', {
-          hour: '2-digit',
-          minute: '2-digit',
-          timeZone: 'America/Bogota',
-        });
-    });
+  if (!process.env.OPEN_WEATHER_MAP_KEY) {
+    return;
+  }
+  try {
+    const response = await fetch(
+      `https://api.openweathermap.org/data/2.5/weather?q=New%20Delhi&units=metric&appid=${process.env.OPEN_WEATHER_MAP_KEY}`
+    );
+    const r = await response.json();
+    if (r && r.weather && r.weather[0] && r.main) {
+      DATA.city_temperature = Math.round(r.main.temp);
+      DATA.feels_like_temp = Math.round(r.main.feels_like);
+      DATA.city_weather = r.weather[0].description;
+      DATA.weather_icon = 'http://openweathermap.org/img/w/' + r.weather[0].icon + '.png';
+      DATA.humidity = r.main.humidity;
+      DATA.sun_rise = new Date(r.sys.sunrise * 1000).toLocaleString('en-US', {
+        hour: '2-digit',
+        minute: '2-digit',
+        timeZone: 'Asia/Kolkata',
+      });
+      DATA.sun_set = new Date(r.sys.sunset * 1000).toLocaleString('en-US', {
+        hour: '2-digit',
+        minute: '2-digit',
+        timeZone: 'Asia/Kolkata',
+      });
+    }
+  } catch (err) {
+    console.error('Failed to fetch weather information:', err.message);
+  }
 }
 
 /**
@@ -64,13 +71,14 @@ function generateReadMe() {
 }
 
 async function action() {
-    /**
-     * Fetch weather
-     */
-    await setWeatherInformation();
-    
-    /**
-     * Generate README
-     */
-    generateReadMe();
-}action();
+  /**
+   * Fetch weather
+   */
+  await setWeatherInformation();
+  
+  /**
+   * Generate README
+   */
+  generateReadMe();
+}
+action();

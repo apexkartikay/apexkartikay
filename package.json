@@ -1,5 +1,5 @@
 {
-  "name": "davidsdvm",
+  "name": "apexkartikay",
   "version": "1.0.0",
   "description": "Readme file from github profile page",
   "main": "index.js",
@@ -14,19 +14,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DavidsDvm/DavidsDvm.git"
+    "url": "git+https://github.com/apexkartikay/apexkartikay.git"
   },
   "keywords": [
     "readme",
     "file",
-    "DavidsDvm",
+    "apexkartikay",
     "autoloader",
-    "readme"
+    "profile"
   ],
-  "author": "DavidsDvm",
+  "author": "apexkartikay",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DavidsDvm/DavidsDvm/issues"
+    "url": "https://github.com/apexkartikay/apexkartikay/issues"
   },
-  "homepage": "https://github.com/DavidsDvm/DavidsDvm#readme"
+  "homepage": "https://github.com/apexkartikay/apexkartikay#readme"
 }
