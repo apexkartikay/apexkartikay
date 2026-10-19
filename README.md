@@ -11,7 +11,7 @@ Header Banner / Presentation GIF
   <a href="https://github.com/apexkartikay">
     <img src="https://img.shields.io/badge/GitHub-7cebf5?&style=for-the-badge&logo=github&logoColor=black" alt="GitHub"/>
   </a>
-  <a href="https://www.linkedin.com/in/kartikay-mishra-02644633b/">
+  <a href="https://www.linkedin.com/in/apexkartikay">
     <img src="https://img.shields.io/badge/LinkedIn-7cebf5?&style=for-the-badge&logo=linkedin&logoColor=black" alt="LinkedIn"/>
   </a>
   <a href="https://leetcode.com/u/apexkartikay/">
@@ -48,7 +48,7 @@ Open to exciting collaborations, open-source initiatives, and engineering roles 
         <li>🌱 Exploring Systems Programming, Distributed Systems, & Cloud Engineering</li>
         <li>👨‍💻 All public projects are available on <a href="https://github.com/apexkartikay?tab=repositories">GitHub</a></li>
         <li>💬 Ask me about anything backend, database design, or web dev related</li>
-        <li>📫 Feel free to reach out via <a href="https://www.linkedin.com/in/kartikay-mishra-02644633b/">LinkedIn</a> or <a href="mailto:kartikmk0402@gmail.com">Email</a></li>
+        <li>📫 Feel free to reach out via <a href="https://www.linkedin.com/in/apexkartikay">LinkedIn</a> or <a href="mailto:kartikmk0402@gmail.com">Email</a></li>
       </ul>
     </td>
     <td style="border: none; padding: 0; text-align: right;">
@@ -141,7 +141,7 @@ Open to exciting collaborations, open-source initiatives, and engineering roles 
 <br>
 
 <!-- Last Refresh Section -->
-Last refresh: <b>Monday, October 19 at 4:22 PM GMT+5:30</b>
+Last refresh: <b>Monday, October 19 at 4:42 PM GMT+5:30</b>
 
 <!---
 apexkartikay/apexkartikay is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
