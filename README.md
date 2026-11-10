@@ -141,7 +141,7 @@ Open to exciting collaborations, open-source initiatives, and engineering roles 
 <br>
 
 <!-- Last Refresh Section -->
-Last refresh: <b>Tuesday, November 10 at 12:17 PM GMT+5:30</b>
+Last refresh: <b>Wednesday, November 11 at 1:00 AM GMT+5:30</b>
 
 <!---
 apexkartikay/apexkartikay is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
